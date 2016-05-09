@@ -1,0 +1,5 @@
+{
+ "type":"TOKEN", 
+ "authorizationToken":"{\"user_id\":\"facebook:997119893702319\",\"mac\":\"YYYYYYYYYYYYYYYY\"}", 
+ "methodArn":"arn:aws:execute-api:us-east-1:546915087846:jqiokf5mp9/1/POST/MixideaAPI" 
+}
