@@ -1,0 +1,6 @@
+lambda_firebase_Auth/node_modules/*
+lambda_firebase_Auth/config/*
+lambda_firebase_Auth/dist/*
+lambda_Comment/node_modules/*
+lambda_Comment/config/*
+npm-debug.log

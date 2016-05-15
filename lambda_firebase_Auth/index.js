@@ -46,7 +46,7 @@ exports.handler = (event, context, callback) => {
             var server_mac = CryptoJS.enc.Hex.stringify(hmac_sha256);
 
             if(in_mac == server_mac){
-                console.log("----mac verification succeed!!----")
+                console.log("----mac verification succeed!!----");
                 context.succeed(generatePolicy(in_userid, 'Allow', event.methodArn));
             }else{
                 console.log("mac from client : " + in_mac);
@@ -57,7 +57,6 @@ exports.handler = (event, context, callback) => {
             console.log(error);
             context.fail("user secret cannot be found");
         })
-
       }
     });
 };

@@ -1,0 +1,12 @@
+{
+ "userid": "facebook:1520978701540732",
+ "body": { 
+	 "type": "argument_each",
+	 "event_id": "-KFDNjQPWg9zAZE9f2B_",
+	 "argument_id": "-KFDNjTzwHNgrYlMHc4C",
+	 "comment": "dd", 
+	 "role": "GW",
+	 "author_list": [ "facebook:997119893702319" ],
+	 "commentor_list":  [ "facebook:1520978701540732", "facebook:514784482056936", "facebook:997119893702319" ]
+ } 
+}
