@@ -3,4 +3,8 @@ lambda_firebase_Auth/config/*
 lambda_firebase_Auth/dist/*
 lambda_Comment/node_modules/*
 lambda_Comment/config/*
+lambda_Comment/dist/*
 npm-debug.log
+event_webchat/node_modules/*
+event_webchat/config/*
+event_webchat/dist/*

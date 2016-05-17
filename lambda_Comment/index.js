@@ -6,8 +6,7 @@ var FirebaseRef = new Firebase("https://mixidea-test.firebaseio.com/");
 var config_firebase = require("./config/config_firebase.conf");
 
 exports.handler = (event, context, callback) => {
-    console.log("-------------------------------")
-    //console.log('Received event:', JSON.stringify(event, null, 2));
+    console.log("-------------------------------");
 
     console.log(event);
 
