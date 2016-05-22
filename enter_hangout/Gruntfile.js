@@ -4,10 +4,8 @@ config_grunt  = require('./config/config_grunt.conf');
 module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-aws-lambda');
-	grunt.loadNpmTasks('grunt-contrib-clean');
 
 	grunt.initConfig({
-
 
 	    lambda_invoke: {
 	        default: {
@@ -19,7 +17,7 @@ module.exports = function (grunt) {
 	    },
 	    lambda_deploy: {
 	        default: {
-	            arn: 'arn:aws:lambda:us-east-1:546915087846:function:firebase_auth',
+	            arn: 'arn:aws:lambda:us-east-1:546915087846:function:enter_hangout',
 	            options: {
 	    			profile: config_grunt.profile,
 	    			accessKeyId: config_grunt.accessKeyId,
@@ -39,7 +37,7 @@ module.exports = function (grunt) {
 	    	}
 	    }
 	});
-	
+
 	grunt.registerTask('run',['lambda_invoke']);
 	grunt.registerTask('deploy',['lambda_package', 'lambda_deploy']);
 

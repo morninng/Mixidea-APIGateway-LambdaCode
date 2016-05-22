@@ -2,8 +2,8 @@
 console.log('XXXXXXXXXXXXXXXXXXXXXXXXXX Loading function XXXXXXXXXXXXXXXXXXXXXXXXXX');
 
 var Firebase = require("firebase");
-var FirebaseRef = new Firebase("https://mixidea-test.firebaseio.com/");
 var config_firebase = require("./config/config_firebase.conf");
+var FirebaseRef = new Firebase(config_firebase.root_url);
 
 
 
@@ -22,7 +22,7 @@ var notified_num = 0;
     var current_date_value = current_date.getTime();
 
     var event_webchat_notify_obj = {
-        user:userid,
+        userid:userid,
         event_id:event.body.event_id,
         event_date: event.body.event_date,
         type: event.body.type,

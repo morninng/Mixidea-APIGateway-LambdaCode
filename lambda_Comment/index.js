@@ -1,9 +1,9 @@
 'use strict';
 console.log('Loading function');
 var Firebase = require("firebase");
-var FirebaseRef = new Firebase("https://mixidea-test.firebaseio.com/");
 //var crypto = require("crypto");
 var config_firebase = require("./config/config_firebase.conf");
+var FirebaseRef = new Firebase(config_firebase.root_url);
 
 exports.handler = (event, context, callback) => {
     console.log("-------------------------------");

@@ -1,13 +1,13 @@
 'use strict';
 console.log('Loading function');
 var Firebase = require("firebase");
-var FirebaseRef = new Firebase("https://mixidea-test.firebaseio.com/");
 //var crypto = require("crypto");
 var config_firebase = require("./config/config_firebase.conf");
+var FirebaseRef = new Firebase(config_firebase.root_url);
 var CryptoJS = require("crypto-js");
 
 exports.handler = (event, context, callback) => {
-    console.log("------lambda function of authorization start------")
+    console.log("------lambda function of authorization start 2------")
     console.log(event);
     var token_str = event.authorizationToken;
     console.log(token_str);

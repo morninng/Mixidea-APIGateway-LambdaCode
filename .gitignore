@@ -8,3 +8,6 @@ npm-debug.log
 event_webchat/node_modules/*
 event_webchat/config/*
 event_webchat/dist/*
+enter_hangout/node_modules/*
+enter_hangout/config/*
+enter_hangout/dist/*

@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^2.4.2",
+    "firebase": "^2.4.2"
+  },
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-aws-lambda": "^0.12.0"
   }
